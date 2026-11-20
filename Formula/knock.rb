@@ -5,23 +5,23 @@ class Knock < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/jairoFernandez/knock/releases/download/v0.0.26/knock-0.0.26-macos-aarch64.tar.gz"
-      sha256 "d8e0e47de7c619fae11a1a9fcfde7e308d60ab222482ceeba1187a2bc2af57db"
+      url "https://github.com/jairoFernandez/knock/releases/download/v0.0.27/knock-0.0.27-macos-aarch64.tar.gz"
+      sha256 "722dfdf4467747765fe861819c8216ce1759a9c442ca9ef30cd6f0563c05c59d"
     end
     on_intel do
-      url "https://github.com/jairoFernandez/knock/releases/download/v0.0.26/knock-0.0.26-macos-x86_64.tar.gz"
-      sha256 "4bfbeb4d77ecbbd67e61f5f334d52d98998541920e1cfc71b5e297925ee4c8e6"
+      url "https://github.com/jairoFernandez/knock/releases/download/v0.0.27/knock-0.0.27-macos-x86_64.tar.gz"
+      sha256 "3be5e5e9c9e2f2ef6b7e1368c438edc302c2965108468f0f8fae531c6cdeee82"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/jairoFernandez/knock/releases/download/v0.0.26/knock-0.0.26-linux-aarch64.tar.gz"
-      sha256 "18c1d34c0a3b37195a306f1b450508ff9f93e73a6bea42ae4c5006f1fd4821cb"
+      url "https://github.com/jairoFernandez/knock/releases/download/v0.0.27/knock-0.0.27-linux-aarch64.tar.gz"
+      sha256 "84ee679cb67bfa02f5c9d1319db0486cd243f141a347851f53bbf344a238ac0f"
     end
     on_intel do
-      url "https://github.com/jairoFernandez/knock/releases/download/v0.0.26/knock-0.0.26-linux-x86_64.tar.gz"
-      sha256 "c5e463480c147b4729649819df1772d27d47bee34919725e2d5687e3d70d8be9"
+      url "https://github.com/jairoFernandez/knock/releases/download/v0.0.27/knock-0.0.27-linux-x86_64.tar.gz"
+      sha256 "bd79e32f99a20647485291673bcc69fa779107872b43853ca009677b238c0ccf"
     end
   end
 

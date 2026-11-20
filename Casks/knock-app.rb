@@ -1,11 +1,11 @@
 cask "knock-app" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.0.26"
-  sha256 arm:   "94a4af14a3a396cee6ed70757a0b0255fb743e0f8572e497af3fa7dfe9392fd6",
-         intel: "67835ccdb3a2420b21b46fb758e1402b8a8510d0ac55592994a0feea60e14f3f"
+  version "0.0.27"
+  sha256 arm:   "35c0a8faf92dadc6cc18328d5fa2c176b5b01632cfd712b3301c7529224a1c07",
+         intel: "490a157780072d1d90e632cd457333f9f48260d64bca3c4ae39aa5b86a21ccba"
 
-  url "https://github.com/jairoFernandez/knock/releases/download/v0.0.26/Knock_#{version}_#{arch}.dmg"
+  url "https://github.com/jairoFernandez/knock/releases/download/v0.0.27/Knock_#{version}_#{arch}.dmg"
   name "Knock"
   desc "Git-native HTTP client and workspace toolkit"
   homepage "https://github.com/jairoFernandez/knock"
